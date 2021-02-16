@@ -1,0 +1,20 @@
+#a şıkkı
+yucreti=25
+vergi=yucreti*0.08
+bahsis=yucreti*0.1
+toplam=yucreti+vergi+bahsis
+print("Yemek Ücreti: ",yucreti,"\n","Vergi: ",vergi,"\n","Bahsis: ",bahsis,"\n","Toplam Ucret: ",toplam)
+
+#b şıkkı Yemek ucreti kullanıcı tarafından giriliyor.
+yucreti=int(input("Lütfen Yemek Ücretini Giriniz="))
+vergi=yucreti*0.08
+bahsis=yucreti*0.1
+toplam=yucreti+vergi+bahsis
+print("Yemek Ücreti: ",yucreti,"\n","Vergi: ",vergi,"\n","Bahsis: ",bahsis,"\n","Toplam Ucret: ",toplam)
+
+#Ekstra Yemek maliyeti,vergi oranı ve bahşiş oranını kullanıcı tarafından giriliyor.
+yucreti=int(input("Lütfen Yemek Ücretini Giriniz="))
+vergi=int(input("Vergi Yüzdelik Oranı Giriniz="))
+bahsis=int(input("Lütfen Bahsis Yüzdelik Oranı Giriniz="))
+toplam=yucreti+(yucreti*(vergi/100))+(yucreti*(bahsis/100))
+print("Yemek Ücreti: ",yucreti,"\n","Vergi: ",(yucreti*(vergi/100)),"\n","Bahsis: ",(yucreti*(bahsis/100)),"\n","Toplam Ucret: ",toplam)
