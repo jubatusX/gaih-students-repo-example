@@ -1,14 +1,17 @@
 # GAIH Student Repo Example
 ![](img/logo.png)
 
-**Course Date:** 12.01.1994 
+**Course Date:** 16.02.2021
+
 **Name:** Cemal  
 **Surname:** CANDEMİR 
+
 **Email:** cemalcandemir@outlook.com.tr
  
 
 ## Project Name
-ODEV 1
+
+ÇALIŞMA - 1
 
 ## Requirements
 ```
