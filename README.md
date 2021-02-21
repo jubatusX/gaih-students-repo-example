@@ -11,7 +11,7 @@
 
 ## Project Name
 
-ÇALIŞMA - 1
+PYTHON
 
 ## Requirements
 ```
